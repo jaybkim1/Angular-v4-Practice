@@ -1,3 +1,11 @@
+# Angular 4 Practice
+
+Let's get to know Angular 4 !
+
+Journey begins...
+
+[CodingEntrepreneurs - Youtube Try Angular v4](https://www.youtube.com/watch?v=9wc8Gv8X49U&list=PLEsfXFp6DpzQThMU768hTZInWUqfoyTEW&index=1)
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
