@@ -1,0 +1,56 @@
+<div class="row">
+    <div class="col-sm-12">
+      <carousel class="text-center">
+          <slide *ngFor='let imageObj of homeImageList'>
+              <a class="" href="/videos/video-1" (click)='preventNormal($event, imageObj)'>
+                <img class="img-main-carousel" [src]="imageObj.image" alt="First slide" style="display: block; width: 100%;">
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+              <h3>{{ imageObj.title }}</h3>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p><a class="btn btn-default" href="{{ imageObj.link }}">Video 1</a></p>
+            </div>
+          </slide>
+          <slide>
+              <a class="" #imageTwo href="/videos/video-2" (click)='preventNormal($event, imageObj)'>
+                <img class="img-main-carousel" src="assets/images/nature/2.jpg" alt="Second slide" style="display: block; width: 100%;">
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+              <h3>Second slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p><a class="btn btn-default" href="/videos/video-2">Video 2</a></p>
+            </div>
+          </slide>
+          <slide>
+              <a class="" #imageThree href="/videos/video-3" (click)='preventNormal($event, imageObj)'>
+                <img class="img-main-carousel" src="assets/images/nature/3.jpg" alt="Third slide" style="display: block; width: 100%;">
+              </a>
+                <div class="carousel-caption d-none d-md-block">
+                <h3>Third slide label</h3>
+               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+               <p><a class="btn btn-default" href="/videos/video-3">Video 3</a></p>
+            </div>
+          </slide>
+          <slide>
+            <a class="" href="/videos/video-4" (click)='preventNormal($event)'>
+              <img class="img-main-carousel" src="assets/images/nature/4.jpg" alt="Third slide" style="display: block; width: 100%;">
+            </a>
+              <div class="carousel-caption d-none d-md-block">
+              <h3>Fourth slide label</h3>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <p><a class="btn btn-default" href="/videos/video-4">Video 4</a></p>
+            </div>
+          </slide>
+          <slide>
+              <a class="" href="/videos/video-5" (click)='preventNormal($event)'>
+                <img class="img-main-carousel" src="assets/images/nature/5.jpg" alt="Third slide" style="display: block; width: 100%;">
+              </a>
+                <div class="carousel-caption d-none d-md-block">
+                <h3>Fifth slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+               <p><a class="btn btn-default" href="/videos/video-5">Video 5</a></p>
+            </div>
+          </slide>
+      </carousel>
+    </div>
+  </div>
