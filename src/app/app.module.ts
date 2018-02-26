@@ -35,3 +35,4 @@ import { VideoDetailComponent } from './video-detail/video-detail.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
