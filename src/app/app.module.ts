@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 // Third party Imports
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
@@ -23,6 +25,9 @@ import { VideoDetailComponent } from './video-detail/video-detail.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    HttpModule,
+    AppRoutingModule,
     
     // ngx-bootstrap
     BsDropdownModule.forRoot(),

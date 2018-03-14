@@ -1,17 +1,23 @@
 [
     {
-        "name": "Item 1",
+        "name": "Welcome",
         "slug": "item-1",
-        "embed": "6wD4V0rvlDI"
+        "embed": "6wD4V0rvlDI",
+        "image": "assets/images/nature/1.jpg",
+        "featured": true
     },
     {
         "name": "Item 2",
         "slug": "item-2",
-        "embed": "6wD4V0rvlDI"
+        "embed": "6wD4V0rvlDI",
+        "image": "assets/images/nature/2.jpg",
+        "featured": true
     },
     {
         "name": "Item 3",
         "slug": "item-3",
-        "embed": null
+        "embed": null,
+        "image": "assets/images/nature/3.jpg",
+        "featured": false
     }
 ]
